@@ -35,7 +35,6 @@ lib/lib_SoundAlive_SRC384_ver300.so
 lib_SoundBooster_ver610.so
 lib/libtinyalsa.so
 lib/libtinycompress.so
-bin/lpm
 lib/libarcsoft_bestphoto_select.so
 lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_preprocessor.so
