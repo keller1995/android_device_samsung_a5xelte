@@ -1,0 +1,3 @@
+add_lunch_combo rr_a5xeltexx-eng
+add_lunch_combo rr_a5xeltexx-userdebug
+add_lunch_combo rr_a5xeltexx-user
