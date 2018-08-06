@@ -23,8 +23,19 @@
 #define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
 #define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
 
-#define BLE_INCLUDED TRUE
-#define BTA_GATT_INCLUDED TRUE
-#define SMP_INCLUDED TRUE
+// Disables read remote device feature
+#define MAX_ACL_CONNECTIONS   16
+#define MAX_L2CAP_CHANNELS    16
+#define BLE_VND_INCLUDED   TRUE
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
+
+// skips conn update at conn completion
+#define BT_CLEAN_TURN_ON_DISABLED 1
+
+/* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
+#define AVDT_NUM_SEPS 12
+
+/* Enable HFP WBS feature */
+#define BTIF_HF_CLIENT_WBS_INCLUDED TRUE
 
 #endif
