@@ -81,8 +81,8 @@ lib/egl/egl.cfg
 lib/egl/libGLES_android.so
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/libSEF.so
-# symlink created by Android.mk: vendor/lib/libOpenCL.so
-# symlink created by Android.mk: vendor/lib/libvulkan.so
+vendor/lib/libOpenCL.so
+vendor/lib/libvulkan.so
 vendor/firmware/ois_fw_sem.bin
 vendor/firmware/ois_fw_sec.bin
 vendor/firmware/ois_fw_ve.bin
