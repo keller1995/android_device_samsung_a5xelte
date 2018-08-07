@@ -45,7 +45,6 @@ lib/egl/libEGL.so
 lib/egl/libGLESv1_CM.so
 lib/egl/libGLESv2.so
 lib/egl/libGLESv3.so
-lib/libion.so
 
 ###################
 # Bluetooth
