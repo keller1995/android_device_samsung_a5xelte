@@ -19,6 +19,8 @@
 # ADB Security
 #####################
 
+ifeq ($(TARGET_BUILD_VARIANT),eng)
+
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.secure=0 \
        ro.adb.secure=0 \
@@ -27,3 +29,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
        persist.service.debuggable=1 \
        persist.sys.usb.config=adb \
        ro.securestorage.support=false
+
+endif
