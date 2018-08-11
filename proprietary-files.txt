@@ -41,6 +41,10 @@ lib/libarcsoft_preprocessor.so
 lib/libarcsoft_selfie_camera_lite.so
 lib/libarcsoft_wideselfie.so
 lib/libaudiosa.so
+lib/egl/libEGL.so
+lib/egl/libGLESv1_CM.so
+lib/egl/libGLESv2.so
+lib/egl/libGLESv3.so
 
 ###################
 # Bluetooth
