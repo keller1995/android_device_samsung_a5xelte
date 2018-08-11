@@ -15,6 +15,16 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_a5xelte.mk \
-    $(LOCAL_DIR)/dot.mk
+# Initialise device config
+$(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
+
+# Inherit common Lineage phone.
+$(call inherit-product, vendor/dot/config/common.mk)
+
+# Set those variables here to overwrite the inherited values.
+PRODUCT_NAME := dot_a5xelte
+PRODUCT_DEVICE := a5xelte
+PRODUCT_MODEL := SM-A510F
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung

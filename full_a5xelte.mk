@@ -15,6 +15,15 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_a5xelte.mk \
-    $(LOCAL_DIR)/dot.mk
+PRODUCT_RUNTIMES := runtime_libart_default
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/samsung/a5xelte/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Set those variables here to overwrite the inherited values.
+#PRODUCT_NAME := a5xelte
+#PRODUCT_DEVICE := a5xelte
+#PRODUCT_BRAND := Samsung
+#PRODUCT_MANUFACTURER := samsung
+#PRODUCT_MODEL := SM-A510F
