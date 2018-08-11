@@ -12,24 +12,7 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Color temperature settings for LiveDisplay. These were obtained by
-         measuring the display at various color balance levels. -->
-    <integer name="config_minColorTemperature">1900</integer>
-    <integer name="config_maxColorTemperature">25000</integer>
-
-    <!-- Default values for LiveDisplay (Copied from TeamNexus/android_device_samsung_zero-common) -->
-    <integer name="config_dayColorTemperature">6500</integer>
-    <integer name="config_nightColorTemperature">4800</integer>
-    <integer name="config_outdoorAmbientLux">10000</integer>
-    <integer name="config_outdoorAmbientLuxHysteresis">1000</integer>
-    <integer name="config_defaultLiveDislayMode">0</integer>
-
-    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
-    <bool name="config_enableBurnInProtection">true</bool>
-     
-    <!-- Disable LiveDisplay by default -->
-    <integer name="config_defaultLiveDislayMode">0</integer>
-
+<resources>
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
