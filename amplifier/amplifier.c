@@ -59,12 +59,15 @@ static tfa_mode_t classify_snd_device(uint32_t snd_device) {
 
     switch (snd_device) {
         case SND_DEVICE_OUT_SPEAKER:
+	case SND_DEVICE_OUT_BT_SCO:
         // our audio HAL splits this up
         //case SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES:
             mode = Audio_Mode_Music_Normal;
             break;
         case SND_DEVICE_OUT_VOICE_SPEAKER:
         case SND_DEVICE_OUT_VOICE_SPEAKER_WB:
+	case SND_DEVICE_OUT_VOICE_BT_SCO:
+	case SND_DEVICE_OUT_VOICE_BT_SCO_WB:
             mode = Audio_Mode_Voice;
             break;
         default:
