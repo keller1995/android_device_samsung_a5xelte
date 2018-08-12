@@ -2,7 +2,7 @@
 ro.sf.lcd_density=480
 
 # Fixes game crashing (HeartStone)
-debug.egl.force_msaa=true
+#debug.egl.force_msaa=true
 debug.hwui.use_buffer_age=true
 
 # Dalvik/Art
