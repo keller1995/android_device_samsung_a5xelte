@@ -16,6 +16,7 @@
     <array name="radio.on">
         <value>2</value>
         <value>2</value>
+    </array>
     <array name="cpu.speeds">
         <value>1690000</value>
         <value>1586000</value>
