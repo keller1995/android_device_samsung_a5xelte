@@ -31,4 +31,5 @@ Rear Camera  | 13 MP, f/1.9, 28mm, autofocus, LED flash
 
 This branch is for building LineageOS 15.1
 
-Model Supported : SM-A510F SM-A510M SM-A510Y
+Model Supported : SM-A510XX 
+*XX = all (Exynos7580)
