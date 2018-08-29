@@ -27,7 +27,7 @@ Display | 5."
 Front Camera  | 5 MP, f/1.9, 24mm, 1080p@30fps
 Rear Camera  | 13 MP, f/1.9, 28mm, autofocus, LED flash
 
-![Galaxy A5 2016](https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a5-2016-1.jpg)
+![Galaxy A5 2016](https://img.xda-cdn.com/f2xMe7Tcs1Wm852upFv-hdiD8Mo=/https%3A%2F%2Fb.scdn.gr%2Fimages%2Fsku_images%2F014900%2F14900956%2F20170717155119_912c787b.jpeg)
 
 This branch is for building LineageOS 15.1
 
