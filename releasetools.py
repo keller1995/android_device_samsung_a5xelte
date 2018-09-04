@@ -41,6 +41,7 @@ def FullOTA_InstallBegin(info):
     info.script.AppendExtra('ui_print("                                                    ");');
     info.script.AppendExtra('ui_print("                Thanks for installing               ");');
     info.script.AppendExtra('ui_print("                                                    ");');
-    info.script.AppendExtra('ui_print("    --> Maintainer: bunnyy                           ");');
+    info.script.AppendExtra('ui_print("    --> Maintainer: bunnyy                          ");');
     info.script.AppendExtra('ui_print("    --> Device: Samsung Galaxy A5 2016              ");');
+    info.script.AppendExtra('ui_print("    --> Github: BunsExynos                          ");');
     info.script.AppendExtra('ui_print("                                                    ");');
