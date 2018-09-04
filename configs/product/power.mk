@@ -23,4 +23,4 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service.universal7580
 
 PRODUCT_COPY_FILES += \
-    device/samsung/a5xeltexx/hardware/power/profiles.xml:system/etc/power_profiles.xml
+    device/samsung/a5xelte/hardware/power/profiles.xml:system/etc/power_profiles.xml

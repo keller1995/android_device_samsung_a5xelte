@@ -15,19 +15,15 @@
 # limitations under the License.
 #
 
-# Initialise device config
-$(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
+PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-
-# Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, device/samsung/a5xelte/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_a5xelte
+PRODUCT_NAME := a5xelte
 PRODUCT_DEVICE := a5xelte
-PRODUCT_MODEL := SM-A510F
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_MODEL := SM-A510F

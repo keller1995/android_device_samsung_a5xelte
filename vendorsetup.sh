@@ -1,3 +1,3 @@
-add_lunch_combo lineage_a5xeltexx-eng
-add_lunch_combo lineage_a5xeltexx-userdebug
-add_lunch_combo lineage_a5xeltexx-user
+add_lunch_combo lineage_a5xelte-eng
+add_lunch_combo lineage_a5xelte-userdebug
+add_lunch_combo lineage_a5xelte-user

@@ -18,6 +18,9 @@
 # Initialise device config
 $(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/dot/config/common.mk)
 
