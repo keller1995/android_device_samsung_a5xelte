@@ -12,5 +12,5 @@
 -->
 <resources>
     <!-- A2DP Sink support -->
-    <bool name="profile_supported_a2dp_sink">false</bool>
+    <bool name="profile_supported_a2dp_sink">true</bool>
 </resources>
