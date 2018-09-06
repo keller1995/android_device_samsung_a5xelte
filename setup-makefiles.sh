@@ -113,7 +113,7 @@ EOF
 EOF
 (cat << "EOF") >> ../../../$OUTDIR/Android.mk
 LOCAL_PATH := $(call my-dir)
-ifneq ($(filter exynos8890, $(TARGET_SOC)),)
+ifneq ($(filter exynos7580, $(TARGET_SOC)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
