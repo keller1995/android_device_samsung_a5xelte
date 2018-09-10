@@ -35,7 +35,7 @@ LOCAL_SHARED_LIBRARIES := \
 	liblog \
 	libutils
 
-LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter -Wno-unused-function
+LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter -Wno-unused-function -Wno-missing-declarations -Wno-macro-redefined
 
 LOCAL_CFLAGS += -DSTRICT_BEHAVIOUR
 

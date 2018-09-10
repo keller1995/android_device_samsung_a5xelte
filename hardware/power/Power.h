@@ -45,7 +45,7 @@ using std::ostringstream;
 #define POWER_TOUCHSCREEN_NAME            "/sys/class/input/input3/name"
 #define POWER_TOUCHSCREEN_ENABLED         "/sys/class/input/input3/enabled"
 
-#define POWER_DT2W_ENABLED                "/sys/android_touch/doubletap2wake"
+#define POWER_DT2W_ENABLED                "/dev/null"
 
 /* Fingerprint is in the A5? */
 #define POWER_FINGERPRINT_WAKELOCKS       "/dev/null"

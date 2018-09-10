@@ -19,7 +19,7 @@
 
 #define false (0)
 #define true (1)
-typedef int8_t bool;
+typedef bool bool;
 
 typedef struct sec_nfc_data {
 	bool opened;
