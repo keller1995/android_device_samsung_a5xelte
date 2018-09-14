@@ -96,7 +96,8 @@ void vendor_load_properties()
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltexx/a5xelte:7.0/NRD90M/A510FXXU5CRD5:user/release-keys");
         property_override("ro.build.description", "a5xeltexx-user 7.0 NRD90M A510FXXU5CRD5 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510F");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xeltexx");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xeltexx");
 
     } else if (bootloader.find("A510M") != std::string::npos) {
 
@@ -104,7 +105,8 @@ void vendor_load_properties()
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xelteub/a5xelte:7.0/NRD90M/A510MUBU4CRC2:user/release-keys");
         property_override("ro.build.description", "a5xelteub-user 7.0 NRD90M A510MUBU4CRC2 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510M");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelteub");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xelteub");
 
     } else if (bootloader.find("A510Y") != std::string::npos) {
 
@@ -112,39 +114,44 @@ void vendor_load_properties()
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltedo/a5xelte:7.0/NRD90M/A510YDOU5CRD1:user/release-keys");
         property_override("ro.build.description", "a5xeltedo-user 7.0 NRD90M A510YDOU5CRD1 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510Y");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xeltedo");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xeltedo");
 
 	} else if (bootloader.find("A510K") != std::string::npos) {
 
 		/* SM-A510K */
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltektt/a5xeltektt:7.0/NRD90M/A510KKKU1CQL1:user/release-keys");
+        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltektt/a5xelte:7.0/NRD90M/A510KKKU1CQL1:user/release-keys");
         property_override("ro.build.description", "a5xeltektt-user 7.0 NRD90M A510KKKU1CQL1 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510K");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xeltektt");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xeltektt");
 
 	} else if (bootloader.find("A510L") != std::string::npos) {
 
 		/* SM-A510L */
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltelgt/a5xeltelgt:7.0/NRD90M/A510LKLU1CQL1:user/release-keys");
+        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xeltelgt/a5xelte:7.0/NRD90M/A510LKLU1CQL1:user/release-keys");
         property_override("ro.build.description", "a5xeltelgt-user 7.0 NRD90M A510LKLU1CQL1 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510L");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xeltelgt");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xeltelgt");
 
 	} else if (bootloader.find("A510S") != std::string::npos) {
 
 		/* SM-A510S */
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xelteskt/a5xelteskt:7.0/NRD90M/A510SKSU1CQL1:user/release-keys");
+        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/a5xelteskt/a5xelte:7.0/NRD90M/A510SKSU1CQL1:user/release-keys");
         property_override("ro.build.description", "a5xelteskt-user 7.0 NRD90M A510SKSU1CQL1 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A510S");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelteskt");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xelteskt");
 
 	} else if (bootloader.find("A5108") != std::string::npos) {
 
 		/* SM-A5108 */
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", " samsung/a5xeltezm/a5xeltecmcc:6.0.1/MMB29K/A5108ZMU3BRD3:user/release-keys");
-        property_override("ro.build.description", "a5xeltezm-user 6.0.1 MMB29K A5108ZMU3BRD3 release-keys");
+        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", " samsung/a5xeltecmcc/a5xelte:6.0.1/MMB29K/A5108ZMU3BRD3:user/release-keys");
+        property_override("ro.build.description", "a5xeltecmcc-user 6.0.1 MMB29K A5108ZMU3BRD3 release-keys");
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-A5108");
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xeltecmcc");
+        property_override_dual("ro.product.device", "ro.vendor.product.device", "a5xelte");
+	property_override_dual("ro.product.name", "ro.vendor.product.name", "a5xeltecmcc");
 
 	}
 
