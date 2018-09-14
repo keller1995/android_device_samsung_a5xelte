@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef ZERO_HARDWARE_POWER_V1_0_PROFILES_H
-#define ZERO_HARDWARE_POWER_V1_0_PROFILES_H
+#ifndef UNIVERSAL7580_HARDWARE_POWER_V1_0_PROFILES_H
+#define UNIVERSAL7580_HARDWARE_POWER_V1_0_PROFILES_H
 
 #define PROFILES_PATH_USER    "/data/system/power_profiles.xml"
 #define PROFILES_PATH_VENDOR  "/vendor/etc/power_profiles.xml"
@@ -128,4 +128,4 @@ private:
 }  // namespace hardware
 }  // namespace android
 
-#endif // ZERO_HARDWARE_POWER_V1_0_PROFILES_H
+#endif // UNIVERSAL7580_HARDWARE_POWER_V1_0_PROFILES_H
