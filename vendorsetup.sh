@@ -1,0 +1,3 @@
+add_lunch_combo lineage_a5xelte-eng
+add_lunch_combo lineage_a5xelte-userdebug
+add_lunch_combo lineage_a5xelte-user
