@@ -334,6 +334,14 @@
         <item>com.facebook.katana</item>
         <item>com.Slack</item>
         <item>com.snapchat.android</item>
+        <item>com.spotify.music</item>
+        <item>com.kodarkooperativet.blackplayerex</item>
+        <item>com.google.android.gm</item>
+        <item>com.mxtech.videoplayer.pro</item>
+        <item>com.andriod.chrome</item>
+        <item>pl.solidexplorer2</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.gaana</item>
     </string-array>
 
 </resources>
