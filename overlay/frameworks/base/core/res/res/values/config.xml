@@ -310,15 +310,6 @@
    <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>	
 
-    <!-- Power menu -->
-    <string-array translatable="true" name="config_custom_globalActionsList">
-        <item>power</item>
-        <item>restart</item>
-        <item>advanced</item>
-        <item>screenshot</item>
-        <item>airplane</item>
-    </string-array>
-
     <!-- Any package that has one of the package names defined below will be prevented
          from using specific sensors in order to stop battery drain -->
     <string-array name="config_blockPackagesSensorDrain">
