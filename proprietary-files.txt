@@ -133,15 +133,6 @@ lib/libsensorservice.so
 lib/libsecnativefeature.so
 
 ###################
-# Power
-###################
-
-lib/hw/power.default.so
-lib/hw/power.exynos5.so
-lib/libpower.so
-lib/libpowermanager.so
-
-###################
 # Radio
 ###################
 
@@ -212,6 +203,8 @@ vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt
 vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt
 vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
 vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+vendor/etc/nxp/LVAZFS_Configuration.txt
+vendor/etc/nxp/AzControlParams_SPEAKER.txt
 vendor/etc/nxp/LVVEFS_Rx_Configuration.txt
 vendor/etc/nxp/LVVEFS_Tx_Configuration.txt
 vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt
@@ -326,3 +319,25 @@ vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt
 vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt
 vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
 vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt 
+
+###################
+# NXP SLD
+###################
+ vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/VideoTelephony/Rx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/VideoTelephony/Rx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/VideoTelephony/Tx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/VideoTelephony/Tx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/WifiCalling/Rx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/WifiCalling/Rx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/WifiCalling/Tx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/WifiCalling/Tx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SLD.txt
+vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SLD.txt
+vendor/etc/nxp/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SLD.txt

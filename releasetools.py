@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-'''a3xelte release tool'''
+'''a5xelte release tool'''
 
 import common
 import os

@@ -119,23 +119,6 @@
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">true</bool>
 
-    <!-- Indicate whether the lid state impacts the accessibility of
-         the physical keyboard.  0 means it doesn't, 1 means it is accessible
-         when the lid is open, 2 means it is accessible when the lid is
-         closed.  The default is 0. -->
-    <integer name="config_lidKeyboardAccessibility">0</integer>
-
-    <!-- Indicate whether the lid state impacts the accessibility of
-         the navigation buttons.  0 means it doesn't, 1 means it is accessible
-         when the lid is open, 2 means it is accessible when the lid is
-         closed.  The default is 0. -->
-    <integer name="config_lidNavigationAccessibility">0</integer>
-
-    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
-         it causes the device to wake up.
-         The default is false. -->
-    <bool name="config_lidControlsSleep">false</bool>
-
     <!-- Control the behavior when the user short presses the power button.
             0 - Nothing
             1 - Go to sleep (doze)
@@ -326,4 +309,31 @@
 	
    <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>	
+
+    <!-- Power menu -->
+    <string-array translatable="true" name="config_custom_globalActionsList">
+        <item>power</item>
+        <item>restart</item>
+        <item>advanced</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+    </string-array>
+
+    <!-- Any package that has one of the package names defined below will be prevented
+         from using specific sensors in order to stop battery drain -->
+    <string-array name="config_blockPackagesSensorDrain">
+        <item>com.whatsapp</item>
+        <item>com.gbwhatsapp</item>
+        <item>com.yowhatsapp</item>
+        <item>com.whatsapp.plus</item>
+        <item>org.telegram.messenger</item>
+        <item>org.telegram.messenger.plus</item>
+        <item>org.thunderdog.challegram</item>
+        <item>com.snapchat.android</item>
+        <item>com.facebook.orca</item>
+        <item>com.facebook.katana</item>
+        <item>com.Slack</item>
+        <item>com.snapchat.android</item>
+    </string-array>
+
 </resources>

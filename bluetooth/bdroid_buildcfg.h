@@ -18,7 +18,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Samsung Galaxy A5 (6)"
+#define BTM_DEF_LOCAL_NAME   "Samsung Galaxy A5 2016"
 
 #define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
 #define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
@@ -27,7 +27,7 @@
 #define MAX_ACL_CONNECTIONS   16
 #define MAX_L2CAP_CHANNELS    16
 #define BLE_VND_INCLUDED   TRUE
-#define BTM_SCO_ENHANCED_SYNC_ENABLED TRUE 
+#define BTM_SCO_ENHANCED_SYNC_ENABLED TRUE
 
 // skips conn update at conn completion
 #define BT_CLEAN_TURN_ON_DISABLED 1

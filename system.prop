@@ -1,9 +1,11 @@
+# Audio
+audio_hal.disable_two_mic=true
+
 # Display
 ro.sf.lcd_density=480
 
 # Fixes game crashing (HeartStone)
 # debug.egl.force_msaa=true
-# ro.sf.disable_triple_buffer=0
 
 # Dalvik/Art
 dalvik.vm.image-dex2oat-filter=speed

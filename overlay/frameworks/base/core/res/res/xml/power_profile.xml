@@ -12,10 +12,10 @@
     <item name="dsp.audio">40</item>
     <item name="dsp.video">68</item>
     <item name="radio.active">170</item>
-    <item name="radio.scanning">218</item>
+    <item name="radio.scanning">89</item>
     <array name="radio.on">
-        <value>2</value>
-        <value>2</value>
+        <value>6.11</value>
+        <value>6.11</value>
     </array>
     <array name="cpu.speeds">
         <value>1690000</value>
