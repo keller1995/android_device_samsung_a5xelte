@@ -24,7 +24,7 @@
 #define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
 
 // Disables read remote device feature
-#define BLE_VND_INCLUDED   TRUE
+#define BLE_VND_INCLUDED TRUE
 #define BTM_SCO_ENHANCED_SYNC_ENABLED TRUE
 
 /* Enable HFP WBS feature */
