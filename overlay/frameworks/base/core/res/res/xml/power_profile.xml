@@ -34,7 +34,6 @@
         <value>343000</value>
     </array>
     <item name="cpu.idle">1.94</item>
-    <item name="wakeup.power">0.15</item>
     <item name="cpu.awake">17.5</item>
     <item name="cpu.power.loadbase">1</item>
     <array name="cpu.active">
