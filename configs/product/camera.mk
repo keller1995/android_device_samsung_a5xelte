@@ -5,7 +5,6 @@ TARGET_KEEP_LEGACY_CAMERA_PACKAGE := true
 TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE := true
 
 PRODUCT_PACKAGES += \
-	camera.universal7580 \
 	libexynoscamera_shim \
 	Camera2 \
 	camera.device@1.0-impl \

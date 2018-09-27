@@ -304,11 +304,17 @@
         <item>SUPL_MODE=1</item>
      </string-array>
 
-   <!-- Button Light -->  
+    <!-- Radio Attributes --> 
+    <string name="config_radio_access_family">GSM|WCDMA|LTE</string>
+
+    <!-- Button Light -->  
     <bool name="config_button_brightness_support">true</bool>
 	
-   <!-- Whether the device supports Smart Pixels -->
+    <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>	
+	
+    <!-- For performance and storage reasons, limit the number of fingerprints per user -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
 
     <!-- Any package that has one of the package names defined below will be prevented
          from using specific sensors in order to stop battery drain -->

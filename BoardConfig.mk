@@ -27,3 +27,40 @@ DEVICE_PATH := device/samsung/a5xelte
 
 # inherit from the proprietary version
 -include vendor/samsung/a5xelte/BoardConfigVendor.mk
+
+#
+# DEX pre-optimizations
+#
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
+WITH_DEXPREOPT := false
+
+##
+## Samsung LSI Graphics
+##
+### Buffers
+BOARD_USE_ANB_OUTBUF_SHARE := true
+BOARD_USE_IMPROVED_BUFFER := true
+BOARD_USE_NON_CACHED_GRAPHICBUFFER := true
+
+### Shims: libstagefright
+TARGET_LD_SHIM_LIBS += \
+	$(subst SHIM_TARGET,libstagefright_shim,$(universal7580_shims_omx))
+
+### Shims: libui
+TARGET_LD_SHIM_LIBS += \
+	$(subst SHIM_TARGET,libui_shim,$(universal7580_shims_omx))
+
+#
+# Radio
+#
+BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_RILD := true
+SIM_COUNT := 2s
+
+#
+# Security
+#
+BOARD_USES_TRUST_KEYMASTER := true
+
+## Gralloc
+TARGET_USES_GRALLOC1_ADAPTER := true

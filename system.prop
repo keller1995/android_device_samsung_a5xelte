@@ -1,6 +1,16 @@
 # Display
 ro.sf.lcd_density=480
 
+# read single/dual-SIM properties
+import /vendor/etc/properties/radio.prop
+
+#
+# Networking
+#
+net.tethering.noprovisioning=true
+persist.data.netmgrd.qos.enable=false
+ro.use_data_netmgrd=false
+
 # Fixes game crashing (HeartStone)
 # debug.egl.force_msaa=true
 
@@ -79,4 +89,4 @@ log.tag.SecCameraUtil=S
 #ro.kernel.qemu=0
 #ro.kernel.qemu.gles=1
 persist.demo.hdmirotationlock=false
-#ro.zygote.disable_gl_preload=1
+ro.zygote.disable_gl_preload=1

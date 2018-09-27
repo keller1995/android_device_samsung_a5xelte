@@ -20,3 +20,4 @@
 #####################
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP_OVERRIDE := true

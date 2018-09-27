@@ -10,7 +10,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_HEADER_LIBRARIES := libnativebase_headers
 
-LOCAL_MODULE                := camera.universal7580
+LOCAL_MODULE                := camera.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_RELATIVE_PATH  := hw
 LOCAL_MODULE_TAGS           := optional
 
