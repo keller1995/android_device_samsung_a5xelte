@@ -91,5 +91,5 @@ log.tag.SecCameraUtil=S
 #
 #ro.kernel.qemu=0
 #ro.kernel.qemu.gles=1
-persist.demo.hdmirotationlock=false
+#persist.demo.hdmirotationlock=false
 ro.zygote.disable_gl_preload=1
