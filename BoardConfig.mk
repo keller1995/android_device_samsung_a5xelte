@@ -55,7 +55,7 @@ TARGET_LD_SHIM_LIBS += \
 #
 BOARD_PROVIDES_LIBRIL := true
 BOARD_PROVIDES_RILD := true
-SIM_COUNT := 2
+#SIM_COUNT := 2
 
 #
 # Security
