@@ -15,7 +15,7 @@
  */
 
 #define LOG_TAG "audio_hw_amplifier_tfa"
-//#define LOG_NDEBUG 1
+#define LOG_NDEBUG 0
 
 #include <cutils/log.h>
 #include <sys/types.h>
@@ -52,7 +52,7 @@ static void * write_dummy_data(void *param) {
     pcm = pcm_open(0, 0, PCM_OUT | PCM_MONOTONIC, &config);
     if (!pcm || !pcm_is_ready(pcm)) {
         ALOGE("pcm_open failed: %s", pcm_get_error(pcm));
-        if (pcm) {
+        if (pcm && errno != EBUSY) {
             goto err_close_pcm;
         }
         goto exit;
@@ -293,3 +293,4 @@ void tfa_device_close(tfa_device_t *tfa_dev) {
         free(tfa_dev);
     }
 }
+

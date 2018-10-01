@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2017 Christopher N. Hesse <raymanfx@gmail.com>
  *
@@ -15,7 +16,7 @@
  */
 
 #define LOG_TAG "audio_hw_amplifier"
-//#define LOG_NDEBUG 1
+#define LOG_NDEBUG 0
 
 #include <cutils/log.h>
 #include <sys/types.h>
@@ -208,3 +209,4 @@ amplifier_module_t HAL_MODULE_INFO_SYM = {
         .methods = &hal_module_methods,
     },
 };
+

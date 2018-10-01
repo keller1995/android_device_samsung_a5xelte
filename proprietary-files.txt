@@ -52,6 +52,8 @@ vendor/firmware/bcm43454_V0147.0245.hcd
 # Camera
 ###################
 
+cameradata/datapattern_420sp.yuv
+cameradata/datapattern_front_420sp.yuv
 lib/hw/camera.vendor.universal7580.so
 lib/libexynoscamera.so
 vendor/firmware/setfile_3l2.bin

@@ -1,8 +1,11 @@
+# Audio
+audio_hal.disable_two_mic=true
+
 # Display
 ro.sf.lcd_density=480
 
 # read single/dual-SIM properties
-import /vendor/etc/properties/radio.prop
+#import /vendor/etc/properties/radio.prop
 
 #
 # Networking

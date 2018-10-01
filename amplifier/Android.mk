@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := \
 	amplifier.c \
 	tfa.c
 
-LOCAL_MODULE := audio_amplifier.$(TARGET_BOOTLOADER_BOARD_NAME)
+LOCAL_MODULE := audio_amplifier.universal7580
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 
