@@ -16,33 +16,6 @@
 #
 
 ###################
-# Extras
-###################
-
-lib/libaudioroute.so
-lib/libcodecdump.so
-lib/lib_DNSe_NRSS_ver226.so
-lib/libpreprocessing_nxp.so
-lib/libSamsungAPVoiceEngine.so
-lib/libsamsungDiamondVoiceExtV2.so
-lib/libSamsungPostProcess.so
-lib/libSamsungPostProcessConvertor.so
-lib/libSamsungPreProcess.so
-lib/lib_SamsungRec_V04013.so
-lib/libsecaudioinfo.so
-lib/lib_soundaliveresampler.so
-lib/lib_SoundAlive_SRC384_ver300.so
-lib_SoundBooster_ver610.so
-lib/libtinyalsa.so
-lib/libtinycompress.so
-lib/libarcsoft_bestphoto_select.so
-lib/libarcsoft_panorama_burstcapture.so
-lib/libarcsoft_preprocessor.so
-lib/libarcsoft_selfie_camera_lite.so
-lib/libarcsoft_wideselfie.so
-lib/libaudiosa.so
-
-###################
 # Bluetooth
 ###################
 
