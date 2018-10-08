@@ -147,6 +147,20 @@
     </hal>
 
     <!--
+        Graphics Composer
+    -->
+
+    <hal format="hidl">
+        <name>android.hardware.graphics.composer</name>
+        <transport arch="32">passthrough</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!--
         Graphics Mapper
     -->
 
