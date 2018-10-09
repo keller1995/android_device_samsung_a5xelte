@@ -15,7 +15,7 @@
  */
 
 #define LOG_TAG "audio_hw_amplifier_tfa"
-//#define LOG_NDEBUG 0
+#define LOG_NDEBUG 0
 
 #include <cutils/log.h>
 #include <sys/types.h>
