@@ -114,7 +114,6 @@ lib/libsecnativefeature.so
 lib/libsec-ril.so
 lib/libsec-ril-dsds.so
 lib/libsecril-client.so
-lib/libaudio-ril.so
 lib/librilutils.so
 
 ###################
