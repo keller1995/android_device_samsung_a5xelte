@@ -22,11 +22,7 @@ on post-fs-data
     chown audio audio /dev/i2c-0
 	
 on boot
-    # Change permission for nr_possible_cores
-    chown root system /sys/module/lazyplug/parameters/nr_possible_cores
-    chmod 0664 /sys/module/lazyplug/parameters/nr_possible_cores
-
-    # S/W self discharging
+   # S/W self discharging
     chown system system /sys/power/cpufreq_self_discharging
     chmod 0660 /sys/power/cpufreq_self_discharging
 
