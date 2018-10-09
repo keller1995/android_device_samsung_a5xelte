@@ -132,7 +132,6 @@ etc/wifi/nvram_net.txt_FD
 vendor/firmware/ram_patch.fw
 etc/wifi/cred.conf
 etc/wifi/p2p_supplicant_overlay.conf
-etc/wifi/wpa_supplicant.conf
 etc/wifi/wpa_supplicant_overlay.conf
 etc/plmn_delta.bin
 etc/plmn_se13.bin
