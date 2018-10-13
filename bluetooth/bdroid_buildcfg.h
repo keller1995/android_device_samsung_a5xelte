@@ -24,6 +24,8 @@
 #define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
 
 // Disables read remote device feature
-#define BLE_VND_INCLUDED TRUE
+#define BLE_INCLUDED TRUE
+#define BTA_GATT_INCLUDED TRUE
+#define SMP_INCLUDED TRUE
 
 #endif
