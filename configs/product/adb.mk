@@ -24,15 +24,15 @@
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-       ro.adb.secure=0
-       ro.secure=0
-       ro.allow.mock.location=0
-       ro.debuggable=1
-       sys.usb.config=adb
-       persist.sys.adb.shell=/system/xbin/bash
-       persist.sys.usb.config=adb,mtp
-       persist.service.adb.enable=1
-       persist.service.debuggable=1
+       ro.adb.secure=0 \
+       ro.secure=0 \
+       ro.allow.mock.location=0 \
+       ro.debuggable=1 \
+       sys.usb.config=adb,mtp \
+       persist.sys.adb.shell=/system/xbin/bash \
+       persist.sys.usb.config=adb,mtp \
+       persist.service.adb.enable=1 \
+       persist.service.debuggable=1 \
        sys.usb.ffs.aio_compat=1
 
 endif
