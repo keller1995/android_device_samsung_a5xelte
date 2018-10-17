@@ -19,15 +19,20 @@
 # ADB Security
 #####################
 
+# ADB (rooted, with early-init support)
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-       ro.secure=0 \
-       ro.adb.secure=0 \
-       ro.hardware=universal7580 \
-       persist.service.adb.enable=1 \
-       persist.service.debuggable=1 \
-       persist.sys.usb.config=adb \
-       ro.securestorage.support=false
+       ro.adb.secure=0
+       ro.secure=0
+       ro.allow.mock.location=0
+       ro.debuggable=1
+       sys.usb.config=adb
+       persist.sys.adb.shell=/system/xbin/bash
+       persist.sys.usb.config=adb,mtp
+       persist.service.adb.enable=1
+       persist.service.debuggable=1
+       sys.usb.ffs.aio_compat=1
 
 endif
