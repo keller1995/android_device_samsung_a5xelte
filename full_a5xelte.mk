@@ -21,6 +21,10 @@ PRODUCT_RUNTIMES := runtime_libart_default
 $(call inherit-product, device/samsung/a5xelte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2018-06-01
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := a5xelte
 PRODUCT_DEVICE := a5xelte
