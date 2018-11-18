@@ -29,15 +29,7 @@ lib/hw/camera.vendor.universal7580.so
 lib/libexynoscamera.so
 vendor/firmware/setfile_3l2.bin
 vendor/firmware/setfile_5e3.bin
-lib/libseccameracore.so
 lib/libuniplugin.so
-lib/libHpr_RecFace_dl_v1.0.so
-lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so
-vendor/lib/libOpenCv.so
-vendor/lib/libHpr_LocLandmark_sdm_v1.0.so
-vendor/lib/libsomp.so
-vendor/lib/libHpr_LocFace_mvfd_v1.0.so
-lib/libexynosutils.so
 
 ###################
 # Graphics / Media
@@ -46,15 +38,8 @@ lib/libexynosutils.so
 vendor/firmware/mfc_fw.bin
 vendor/firmware/fimc_is_fd.bin
 vendor/firmware/fimc_is_fw2_3l2.bin
-lib/egl/egl.cfg
 lib/egl/libGLES_android.so
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/libSEF.so
-vendor/lib/libOpenCL.so
-vendor/lib/libvulkan.so
-vendor/firmware/ois_fw_sem.bin
-vendor/firmware/ois_fw_sec.bin
-vendor/firmware/ois_fw_ve.bin
 lib/libcsc.so
 
 ###################
