@@ -45,11 +45,6 @@ ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 
 ### Suppress some logcat output
-# NFC
-log.tag.BrcmNfcJni=S
-log.tag.BrcmNfcNfa=S
-log.tag.SecHAL=S
-
 # Camera
 log.tag.ExynosCamera=S
 log.tag.ExynosCamera1Parameters=S
