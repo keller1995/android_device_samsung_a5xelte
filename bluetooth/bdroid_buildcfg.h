@@ -21,7 +21,10 @@
 #define BTM_DEF_LOCAL_NAME   "Samsung Galaxy A5 2016"
 
 #define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
-#define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
+#define BTIF_HF_WBS_PREFERRED FALSE  /* Don't Use WBS    */
+
+/* Disable the eSCO commands */
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
 
 // Disables read remote device feature
 #define BLE_INCLUDED TRUE
