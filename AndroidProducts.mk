@@ -17,4 +17,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_a5xelte.mk \
-    $(LOCAL_DIR)/lineage.mk
+    $(LOCAL_DIR)/lineage_a5xelte.mk
