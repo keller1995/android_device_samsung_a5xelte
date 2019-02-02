@@ -1,6 +1,5 @@
 #
-# Copyright 2016 The CyanogenMod Project
-# Copyright 2017-2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,15 +14,54 @@
 # limitations under the License.
 #
 
-# Inherit from Exynos7580-common
-include device/samsung/exynos7580-common/BoardConfigCommon.mk
+# Inherit from universal7580-common
+include device/samsung/universal7580-common/BoardConfigCommon.mk
+
+LOCAL_PATH := device/samsung/a5xelte
 
 TARGET_OTA_ASSERT_DEVICE := a5xelte, a5xeltexx, a5xelteub, a5xeltedo, a5xeltektt, a5xeltelgt, a5xelteskt, a5xeltecmcc
 
-DEVICE_PATH := device/samsung/a5xelte
-
-# Include makefiles from board folder
--include $(DEVICE_PATH)/configs/board/*.mk
-
 # inherit from the proprietary version
 -include vendor/samsung/a5xelte/BoardConfigVendor.mk
+
+# Include path
+TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+
+# Fingerprint
+TARGET_SEC_FP_HAL_VARIANT := bauth
+
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_a5xelte_defconfig
+
+# RIL
+BOARD_MODEM_TYPE := tss310
+BOARD_PROVIDES_LIBRIL := true
+BOARD_NEEDS_ROAMING_PROTOCOL_FIELD := true
+
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sec
+TARGET_UNIFIED_DEVICE := true
+
+# Partitions
+BOARD_HAS_NO_MISC_PARTITION:= false
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
+BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 39845888
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 12096372736
+BOARD_FLASH_BLOCK_SIZE := 4096
+
+# Releasetool
+TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
+
+# Shim
+TARGET_LD_SHIM_LIBS += \
+    /system/lib/libcamera_client.so|/vendor/lib/libcamera_client_shim.so \
+    /system/lib/libstagefright.so|/vendor/lib/libstagefright_shim.so \
+    /system/lib/libbauthserver.so|/vendor/lib/libbauthtzcommon_shim.so \
+    /system/lib/libexynoscamera.so|/vendor/lib/libexynoscamera_shim.so

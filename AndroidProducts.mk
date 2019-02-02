@@ -15,6 +15,8 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/samsung/a5xelte
+
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_a5xelte.mk \
     $(LOCAL_DIR)/lineage.mk

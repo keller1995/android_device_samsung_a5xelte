@@ -15,11 +15,14 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/samsung/a5xelte
+
 # Initialise device config
 $(call inherit-product, device/samsung/a5xelte/full_a5xelte.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/dot/config/common.mk)
